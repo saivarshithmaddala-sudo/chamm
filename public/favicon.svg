@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCE5A4"/>
+      <stop offset="35%" stop-color="#D4AF37"/>
+      <stop offset="70%" stop-color="#C59B27"/>
+      <stop offset="100%" stop-color="#997517"/>
+    </linearGradient>
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D4AF37" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#D4AF37" stop-opacity="0.15"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#D4AF37" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#0E0E11" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Luxury Noir Background -->
+  <rect width="64" height="64" rx="14" fill="#0C0C0E"/>
+  <rect width="64" height="64" rx="14" fill="url(#glow)"/>
+  <rect x="1" y="1" width="62" height="62" rx="13" stroke="url(#borderGrad)" stroke-width="1.2"/>
+
+  <!-- Haute Couture Hanger Hook -->
+  <path d="M32 24 C32 18.5 37 16 38.5 19 C39.5 21.5 37 23.5 33.5 26.5 L32 28" 
+        stroke="url(#gold)" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+
+  <!-- Hanger Frame -->
+  <path d="M32 29.5 L12 40.5 C10.5 41.3 11 43 12.5 43 L51.5 43 C53 43 53.5 41.3 52 40.5 L32 29.5 Z" 
+        fill="none" stroke="url(#gold)" stroke-width="2.75" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Horizontal Lower Bar -->
+  <line x1="15" y1="42.5" x2="49" y2="42.5" stroke="url(#gold)" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Haute Couture Diamond Sparkle Accent at Apex -->
+  <path d="M32 25 L33.2 28 L36 29.2 L33.2 30.4 L32 33.2 L30.8 30.4 L28 29.2 L30.8 28 Z" 
+        fill="#FFFFFF"/>
+</svg>
