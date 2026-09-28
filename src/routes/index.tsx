@@ -7,7 +7,7 @@ import { Hero } from "@/components/site/Hero";
 import { Collections } from "@/components/site/Collections";
 import { About, Contact, Craft, Experience, Statement } from "@/components/site/Sections";
 
-const title = "Chamundeshwari — Fashion Designer Portfolio";
+const title = "Chamundeshwari";
 const description =
   "Final-semester collection by fashion designer Chamundeshwari: Ice, Mirror and Noir — shimmer, hand-cut mirror tiles and sheer structural tulle.";
 
@@ -16,6 +16,7 @@ export const Route = createFileRoute("/")({
     meta: [
       { title },
       { name: "description", content: description },
+      { property: "og:site_name", content: "Chamundeshwari" },
       { property: "og:title", content: title },
       { property: "og:description", content: description },
       { property: "og:type", content: "website" },

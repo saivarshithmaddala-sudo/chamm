@@ -73,14 +73,15 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Chamundeshwari — Fashion Designer Portfolio" },
+      { title: "Chamundeshwari" },
       {
         name: "description",
         content:
           "Final-semester collection by fashion designer Chamundeshwari: Ice, Mirror and Noir — shimmer, hand-cut mirror tiles and sheer structural tulle.",
       },
       { name: "author", content: "Chamundeshwari" },
-      { property: "og:title", content: "Chamundeshwari — Fashion Designer Portfolio" },
+      { property: "og:site_name", content: "Chamundeshwari" },
+      { property: "og:title", content: "Chamundeshwari" },
       {
         property: "og:description",
         content:
